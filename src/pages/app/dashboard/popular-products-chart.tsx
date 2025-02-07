@@ -70,7 +70,7 @@ export function PopularProductsChart() {
                         ? popularProducts[index].product
                             .substring(0, 12)
                             .concat('...')
-                        : popularProducts[index].product}{' '}
+                        : popularProducts[index].product}
                       ({value})
                     </text>
                   )
